@@ -73,7 +73,7 @@ const PersonaShareWrapper = styled.div`
   `}
 `;
 
-const IconWrapper = styled.span`
+const IconWrapper = styled.a`
   background-color: white;
   display: inline-block;
   padding: 8px;
@@ -104,10 +104,10 @@ export const Home: FunctionComponent = () => {
         <StyledH2>#WE ARE PERSONASHARE FAMILY</StyledH2>
         <StyledH3>FOLLOW US ON FACEBOOK AND LINKEDIN</StyledH3>
         <IconRow>
-          <IconWrapper>
+          <IconWrapper href="https://www.facebook.com/PersonaShare-110785183877737">
             <Icon svgLink={FacebookSvg} color="#3b5998" width="128px" height="128px" />
           </IconWrapper>
-          <IconWrapper>
+          <IconWrapper href="https://www.linkedin.com/groups/8868704/?fbclid=IwAR1ET4HY6Tx14BCHpwz0Con4mopJV5UScAK9Gt26eZ8SKkQu3XSGvDdDh28">
             <Icon svgLink={LinkedinSvg} color="#0077b5" width="128px" height="128px" />
           </IconWrapper>
         </IconRow>
